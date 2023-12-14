@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 
 [TestFixture]
-public class Sample_Test
+public class NarcissisticTests
 {
     private static IEnumerable<TestCaseData> testCases
     {
@@ -18,6 +18,12 @@ public class Sample_Test
             yield return new TestCaseData(371)
                             .Returns(true)
                             .SetDescription("371 is narcissitic");
+            yield return new TestCaseData(370)
+                            .Returns(true)
+                            .SetDescription("370 is narcissitic");
+            yield return new TestCaseData(1634)
+                            .Returns(true)
+                            .SetDescription("1634 is narcissitic");
 
         }
     }

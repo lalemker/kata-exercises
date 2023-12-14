@@ -1,6 +1,6 @@
 namespace KataTests;
 
-public class TestsWork
+public class UnitTestsWork
 {
     [SetUp]
     public void Setup()
