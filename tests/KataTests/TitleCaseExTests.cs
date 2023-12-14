@@ -5,7 +5,7 @@ namespace KataTests;
   using Katas;
 
   [TestFixture]
-  public class Tests
+  public class TitleCaseExTests
   {
     [TestCase("a clash of KINGS", "a an the of", "A Clash of Kings")]
     [TestCase("THE WIND IN THE WILLOWS", "The In", "The Wind in the Willows")]
