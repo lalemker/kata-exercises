@@ -14,16 +14,16 @@ public class NarcissisticTests
         {
             yield return new TestCaseData(1)
                             .Returns(true)
-                            .SetDescription("1 is narcissitic");
+                            .SetDescription("1 is narcissistic");
             yield return new TestCaseData(371)
                             .Returns(true)
-                            .SetDescription("371 is narcissitic");
+                            .SetDescription("371 is narcissistic");
             yield return new TestCaseData(370)
                             .Returns(true)
-                            .SetDescription("370 is narcissitic");
+                            .SetDescription("370 is narcissistic");
             yield return new TestCaseData(1634)
                             .Returns(true)
-                            .SetDescription("1634 is narcissitic");
+                            .SetDescription("1634 is narcissistic");
 
         }
     }
